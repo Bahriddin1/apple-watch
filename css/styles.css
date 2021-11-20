@@ -15,6 +15,9 @@
   color: #777777;
 }
 
+ a:focus{
+  outline: 1px dashed #7296ec;
+}
 
 .container{
 width: 100px;
@@ -41,8 +44,12 @@ padding-top: 30px;
 
 }
 
+.apple-logo-item{
+  padding-left: 125px;
+}
+
 .apple-logo-img{
-  margin-left: 125px;
+
 width: 35px;
 height: 42px;
 }
@@ -52,6 +59,10 @@ height: 42px;
   margin-right: 40px;
   list-style-type: none;
 
+}
+
+.header-links-list a:focus{
+  border-bottom: 3px solid #333333;
 }
 
 .header-links-item:not(:last-child){
@@ -85,6 +96,10 @@ align-items: center;
  text-align: center;
  text-decoration: none;
   color: #666666;
+}
+
+.header-main-link:focus{
+border-bottom: 1px solid #333333;
 }
 
 /* HERO */
@@ -142,8 +157,13 @@ width: 493px;
   align-items: center;
   padding: 12px 35px;
   width: 260px;
-  background: #C9514C;
+  background: #EA625C;
 }
+
+.hero-link-item:hover{
+  background-color: #C9514C;
+}
+
 .hero-item-link {
   font-family: "Roboto";
   font-style: normal;
@@ -221,6 +241,8 @@ color: #EA625C;
 
 }
 
+
+
 .item-link-line{
   margin-left:0;
   margin-right: 10px;
@@ -279,8 +301,13 @@ width: 490px;
   align-items: center;
   padding: 12px 90px;
   width: 260px;
+  background-color: #EA625C;
+}
+
+.services-link-item:hover{
   background-color: #C9514C;
 }
+
 .services-item-link {
   font-family: "Roboto";
   font-style: normal;
@@ -294,4 +321,68 @@ text-decoration: none;
 }
 .services-img {
   width: 400px;
+}
+
+
+/* WATCH-GPS  */
+
+.watch-gps{
+padding-top: 70px;
+}
+
+.watch-gps-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 240px 125px 239px 635px;
+  background-image: url(../img/runners.jpg);
+}
+.watch-gps-item-heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.watch-gps-item-text {
+  padding-left: 40px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  border-left: 3px solid #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+color: #FFFFFF;
+}
+.watch-gps-link-item {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 46px;
+  margin: 0;
+  background-color: #EA625C;
+}
+
+.watch-gps-link-item:hover{
+  background-color: #C9514C;
+}
+
+.watch-gps-item-link {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+ text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
 }
