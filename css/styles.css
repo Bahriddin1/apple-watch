@@ -15,17 +15,17 @@
   color: #777777;
 }
 
- a:focus{
+a:focus{
   outline: 1px dashed #7296ec;
 }
 
 .container{
-width: 100px;
-min-width: 1300px;
-padding-left: 25px;
-padding-right: 25px;
-margin-left: auto;
-margin-right: auto;
+  width: 100px;
+  min-width: 1300px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -33,7 +33,7 @@ margin-right: auto;
 /* HEADER  */
 
 .site-header{
-padding-top: 30px;
+  padding-top: 30px;
 
 }
 
@@ -50,8 +50,8 @@ padding-top: 30px;
 
 .apple-logo-img{
 
-width: 35px;
-height: 42px;
+  width: 35px;
+  height: 42px;
 }
 
 .header-links-list{
@@ -76,14 +76,14 @@ height: 42px;
   font-weight: normal;
   font-size: 15px;
   line-height: 150%;
- text-align: center;
- text-decoration: none;
-color: #333333;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
 }
 
 .links-list{
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-main-link{
@@ -93,13 +93,13 @@ align-items: center;
   font-weight: normal;
   font-size: 15px;
   line-height: 150%;
- text-align: center;
- text-decoration: none;
+  text-align: center;
+  text-decoration: none;
   color: #666666;
 }
 
 .header-main-link:focus{
-border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #333333;
 }
 
 /* HERO */
@@ -110,8 +110,8 @@ border-bottom: 1px solid #333333;
 }
 
 .hero{
-padding-top: 79px;
-border-bottom: 2px solid #dddddd;
+  padding-top: 79px;
+  border-bottom: 2px solid #dddddd;
 }
 
 .hero-item {
@@ -141,7 +141,7 @@ border-bottom: 2px solid #dddddd;
   padding-left: 40px;
   margin-top: 0;
   margin-bottom: 30px;
-width: 493px;
+  width: 493px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -172,12 +172,12 @@ width: 493px;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
-text-decoration: none;
+  text-decoration: none;
   color: #FFFFFF;
 }
 .hero-img {
   width: 390px;
-height: 565px;
+  height: 565px;
 }
 
 
@@ -200,18 +200,18 @@ height: 565px;
 }
 
 .functions-item:not(:last-child){
-margin-right: 80px;
+  margin-right: 80px;
 }
 
 .functions-item-heading {
   margin-top: 0;
-margin-bottom: 30px;
+  margin-bottom: 30px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 150%;
- text-transform: uppercase;
+  text-transform: uppercase;
 
   color: #222222;
 }
@@ -222,7 +222,7 @@ margin-bottom: 30px;
   font-weight: normal;
   font-size: 15px;
   line-height: 160%;
-   color: #333333;
+  color: #333333;
 
 }
 
@@ -231,13 +231,13 @@ margin-bottom: 30px;
   align-items: center;
   justify-content: start;
   font-family: "Roboto";
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 160%;
-text-transform: uppercase;
-text-decoration: none;
-color: #EA625C;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #EA625C;
 
 }
 
@@ -246,9 +246,9 @@ color: #EA625C;
 .item-link-line{
   margin-left:0;
   margin-right: 10px;
-width: 60px;
-height: 3px;
-background-color: #EA625C;;
+  width: 60px;
+  height: 3px;
+  background-color: #EA625C;;
 
 }
 
@@ -257,17 +257,17 @@ background-color: #EA625C;;
 /* SERVICES  */
 
 .services {
-padding-top: 70px;
+  padding-top: 70px;
 }
 
 .services-list {
-display: flex;
+  display: flex;
 }
 .services-item {
-padding-top: 106px;
-padding-bottom: 106px;
-padding-left: 125px;
-margin-right: 110px;
+  padding-top: 106px;
+  padding-bottom: 106px;
+  padding-left: 125px;
+  margin-right: 110px;
 
 }
 .services-item-heading {
@@ -279,14 +279,14 @@ margin-right: 110px;
   font-weight: bold;
   font-size: 50px;
   line-height: 120%;
-   color: #000000;
+  color: #000000;
 }
 .services-item-text {
   padding-left: 40px;
   margin-top: 0;
   margin-bottom: 30px;
   border-left: 3px solid #888888;
-width: 490px;
+  width: 490px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -316,7 +316,7 @@ width: 490px;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
-text-decoration: none;
+  text-decoration: none;
   color: #FFFFFF;
 }
 .services-img {
@@ -327,7 +327,7 @@ text-decoration: none;
 /* WATCH-GPS  */
 
 .watch-gps{
-padding-top: 70px;
+  padding-top: 70px;
 }
 
 .watch-gps-item {
@@ -357,7 +357,7 @@ padding-top: 70px;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-color: #FFFFFF;
+  color: #FFFFFF;
 }
 .watch-gps-link-item {
 
@@ -381,7 +381,7 @@ color: #FFFFFF;
   font-weight: bold;
   font-size: 18px;
   line-height: 150%;
- text-align: center;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: #FFFFFF;
